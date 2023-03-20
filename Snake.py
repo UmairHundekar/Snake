@@ -73,8 +73,6 @@ while running:
                 movingDown = True
                 movingUp = False
                 movingRight = False
-            if event.key == pygame.K_e:
-                addPiece = True
 
     #Actaully moving the snake and seeing if it hit an objective and seeing if it lost.
     #Its moves it by adding a block of the snake to the front and removing one from the back of the list unless they get the objective
